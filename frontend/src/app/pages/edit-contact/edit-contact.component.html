@@ -1,0 +1,22 @@
+<button class="btn-back" (click)="onBack()">
+  <img src="../../../assets/img/back.png" />
+</button>
+<form
+  class="form-edit"
+  [formGroup]="detailsForm"
+  (ngSubmit)="onSubmit(detailsForm.value)"
+>
+  <div>
+    <label for="name">Name:</label>
+    <input type="text" formControlName="name" placeholder="name" />
+  </div>
+  <div>
+    <label for="email">Email:</label>
+    <input type="text" formControlName="email" placeholder="email" />
+  </div>
+  <div>
+    <label for="phone">Phone:</label>
+    <input type="text" formControlName="phone" placeholder="phone" />
+</div>
+    <button class="btn-add" type="submit"> <img src="../../../assets/img/plus.png" /></button>
+</form>

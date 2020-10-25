@@ -1,0 +1,41 @@
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.4rem;
+  button {
+    background-color: transparent;
+    img {
+      width: 35px;
+    }
+  }
+  .contact-img {
+    width: 300px;
+  }
+
+  .btns-action {
+    display: flex;
+    width: 500px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width:760px){
+  .contact-details {
+    font-size: 1.1rem;
+    button {
+      background-color: transparent;
+      img {
+        width: 25px;
+      }
+    }
+    .contact-img {
+      width: 150px;
+    }
+  
+    .btns-action {
+      width: 300px;
+    }
+  } 
+}

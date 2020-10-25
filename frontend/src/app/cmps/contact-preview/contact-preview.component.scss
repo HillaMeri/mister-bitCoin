@@ -1,0 +1,34 @@
+.contant-preview {
+  img {
+    width: 60px;
+    height: 60px;
+  }
+  display: flex;
+  width: 350px;
+  justify-content: space-around;
+  align-items: center;
+  outline: none;
+  background-color: rgb(247 197 255 / 65%);
+  border-radius: 15px;
+  padding: 7px 0;
+  margin-bottom: 5px;
+  cursor: pointer;
+  font-size: 1.4rem;
+  transition: 0.3s;
+  &:hover {
+    transform: rotate3d(1, 1, 1, 10deg);
+    background-color: rgb(156 39 176 / 70%);
+    z-index: 2;
+  }
+}
+
+@media (max-width: 740px){
+  .contant-preview {
+    img {
+      width: 40px;
+      height: 40px;
+    }
+    width: 250px;
+    font-size: 1.1rem;
+  }
+}

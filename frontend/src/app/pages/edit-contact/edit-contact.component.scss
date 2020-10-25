@@ -1,0 +1,16 @@
+.form-edit {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: 20px auto;
+
+  .btn-add {
+    align-self: flex-end;
+  }
+
+}
+
+button {
+  background-color: transparent;
+}
